@@ -11,14 +11,24 @@
       <put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp" />
    </definition>
 
-   <definition name="main" extends="baseLayout">
-      <put-attribute name="title" value="메인페이지" />
-      <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+ 
+   
+   <definition name="employeeReservation" extends="baseLayout">
+      <put-attribute name="title" value="환자 정보 조회" />
+      <put-attribute name="body" value="/WEB-INF/views/employee/employeeReservation.jsp" />
+   </definition>
+   
+	<definition name="employeeSearchPatients" extends="baseLayout">
+      <put-attribute name="title" value="환자 정보 조회" />
+      <put-attribute name="body" value="/WEB-INF/views/employee/employeeSearchPatients.jsp" />
    </definition>
 
-<!-- 	<definition name="/employee/reservation" extends="baseLayout">
-      <put-attribute name="title" value="로그인창" />
-      <put-attribute name="body" value="/WEB-INF/views/employee/reservation.jsp" />
-   </definition> -->
+   
+   <definition name="employeeMain" extends="baseLayout">
+      <put-attribute name="title" value="요양 보호사 메인 페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/employee/employeeMain.jsp" />
+   </definition>   
+
+
 
 </tiles-definitions>

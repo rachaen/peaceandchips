@@ -7,21 +7,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller("employeeController")
 public class EmployeeController {
 
-	@RequestMapping("/employee")
+	@RequestMapping("/employeeMain")
 	public String memberMain(Model model) {
-		return "employee/home";
+		return "employeeMain";
+	}
+	
+	@RequestMapping("/employeeMain")
+	public String employeeMain(Model model) {
+			return "employeeMain";
 	}
 	
 	@RequestMapping("/employeeReservation")
 	public String employeeReservation(Model model) {
-			return "employee/employeeReservation";
+			return "employeeReservation";
 	}
 	
 	@RequestMapping("/employeeSearchPatients")
 	public String employeeSearchPatients(Model model) {
-			return "employee/employeeSearchPatients";
+			return "employeeSearchPatients";
 	}
-	// 테스트 입니다. ㅋ
 	
 	
 	
