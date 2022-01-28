@@ -16,5 +16,18 @@ public class EmployeeController {
 	public String employeeReservation(Model model) {
 			return "employee/employeeReservation";
 	}
+	
+	@RequestMapping("/employeeSearchPatients")
+	public String employeeSearchPatients(Model model) {
+			return "employee/employeeSearchPatients";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
