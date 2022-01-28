@@ -21,6 +21,7 @@ public class EmployeeController {
 	public String employeeSearchPatients(Model model) {
 			return "employee/employeeSearchPatients";
 	}
+	// 테스트 입니다. ㅋ
 	
 	
 	
