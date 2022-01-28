@@ -12,10 +12,6 @@ public class EmployeeController {
 		return "employeeMain";
 	}
 	
-	@RequestMapping("/employeeMain")
-	public String employeeMain(Model model) {
-			return "employeeMain";
-	}
 	
 	@RequestMapping("/employeeReservation")
 	public String employeeReservation(Model model) {
