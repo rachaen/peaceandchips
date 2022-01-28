@@ -11,5 +11,10 @@ public class EmployeeController {
 	public String memberMain(Model model) {
 		return "employee/home";
 	}
+	
+	@RequestMapping("/employeeReservation")
+	public String employeeReservation(Model model) {
+			return "employee/employeeReservation";
+	}
 
 }
