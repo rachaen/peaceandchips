@@ -12,7 +12,7 @@ request.setCharacterEncoding("UTF-8");
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>회원 관리</title>
+    <title>예약 확인</title>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <style type="text/css">
       .wrapper {
