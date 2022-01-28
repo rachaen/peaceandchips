@@ -9,7 +9,7 @@ public class MemberController {
 	
 	@RequestMapping("/member")
 	public String memberMain(Model model) {
-		return "member/main";
+		return "member/home";
 	}
 
 }
