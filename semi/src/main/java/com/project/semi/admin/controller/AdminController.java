@@ -16,7 +16,7 @@ public class AdminController {
 	public String adminMemList(Model model) {
 		return "admin/list";
 	} 
-	
+	 
 	@RequestMapping("/admin/emplist")
 	public String adminEmpList(Model model) {
 		return "admin/emplist";
