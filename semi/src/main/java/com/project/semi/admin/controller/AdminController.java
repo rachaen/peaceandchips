@@ -11,4 +11,9 @@ public class AdminController {
 	public String adminMain(Model model) {
 		return "admin/home";
 	}
+	
+	@RequestMapping("/admin/list")
+	public String adminMemList(Model model) {
+		return "admin/list";
+	}
 }
